@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="module"></script>
+</head>
+<body>
+  <main>
+    <h1>Quiz</h1>
+    <form>
+      <fieldset>
+        <legend>What is your favorite season?</legend>
+        <div class="choice">
+          <input type="radio" id="r1" name="option" value="spring">
+          <label for="r1">Spring</label>
+        </div>
+        <div class="choice">
+          <input type="radio" id="r2" name="option" value="summer">
+          <label for="r2">Summer</label>
+        </div>
+        <div class="choice">
+          <input type="radio" id="r3" name="option" value="fall">
+          <label for="r3">Fall</label>
+        </div>
+        <div class="choice">
+          <input type="radio" id="r4" name="option" value="winter">
+          <label for="r4">Winter</label>
+        </div>
+      </fieldset>
+    </form>
+    
+    <dialog id="result" !open>
+      <h2 id="title">Title</h2>
+      <p id="description">Description</p>
+    </dialog>
+  </main>
+</body>
+</html>

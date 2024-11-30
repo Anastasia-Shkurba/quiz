@@ -1,0 +1,53 @@
+body {
+  background-color: #FEFCF0;
+  color: #4F493A;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+h1::before, h1::after {
+  content: "";
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  background-color: #4F493A;
+  margin: 10px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  border: none;
+  background-color: #FAEDCD;
+  margin: -80px auto 0;
+  width: max-content;
+
+}
+
+legend {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 80px;
+  margin-bottom: 20px;
+}
+
+.choice {
+  padding: 10px;
+  background-color: #FEFCF0;
+  box-shadow: 3px 3px 0px #D7C9B0;
+  font-weight: 700;
+  font-size: 20px;
+
+  label {
+    cursor: pointer;
+  }
+}

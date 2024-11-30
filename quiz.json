@@ -1,0 +1,87 @@
+{
+  "title": "Discover Your Inner Animal Side!",
+  "description": "Answer the following 7 questions by selecting one option for each. At the end, we'll reveal which animal matches your personality!",
+  "questions": [
+    {
+      "question": "1. What's your favorite way to spend a weekend?",
+      "options": {
+        "A": "Curled up with a good book at home.",
+        "B": "Exploring new hiking trails.",
+        "C": "Hosting a gathering with friends.",
+        "D": "Trying out a new hobby or class."
+      }
+    },
+    {
+      "question": "2. Which snack appeals to you the most?",
+      "options": {
+        "A": "A warm cup of tea and biscuits.",
+        "B": "A protein bar on the go.",
+        "C": "A gourmet cheese platter.",
+        "D": "An exotic fruit smoothie."
+      }
+    },
+    {
+      "question": "3. Pick a color that resonates with you:",
+      "options": {
+        "A": "Blue",
+        "B": "Green",
+        "C": "Red",
+        "D": "Purple"
+      }
+    },
+    {
+      "question": "4. What's your ideal vacation spot?",
+      "options": {
+        "A": "A cozy cabin in the mountains.",
+        "B": "A safari adventure in Africa.",
+        "C": "A vibrant city full of nightlife.",
+        "D": "An ancient temple in a remote area."
+      }
+    },
+    {
+      "question": "5. How do you handle challenges?",
+      "options": {
+        "A": "Analyze and plan carefully before acting.",
+        "B": "Dive in headfirst and adapt as you go.",
+        "C": "Rally others to tackle it together.",
+        "D": "Think outside the box for unique solutions."
+      }
+    },
+    {
+      "question": "6. Which activity sounds most appealing?",
+      "options": {
+        "A": "Reading or writing in a quiet place.",
+        "B": "Rock climbing or extreme sports.",
+        "C": "Attending a concert or festival.",
+        "D": "Visiting a museum or art gallery."
+      }
+    },
+    {
+      "question": "7. What's your spirit beverage?",
+      "options": {
+        "A": "Herbal tea",
+        "B": "Espresso shot",
+        "C": "Sparkling champagne",
+        "D": "Mysterious herbal elixir"
+      }
+    }
+  ],
+  "results": {
+    "A": {
+      "title": "The Wise Owl",
+      "description": "You are thoughtful and introspective. Like the owl, you value knowledge and enjoy peaceful environments."
+    },
+    "B": {
+      "title": "The Adventurous Tiger",
+      "description": "Bold and energetic, you love excitement and embrace challenges head-on."
+    },
+    "C": {
+      "title": "The Social Dolphin",
+      "description": "Friendly and charismatic, you thrive in social settings and enjoy being surrounded by others."
+    },
+    "D": {
+      "title": "The Mysterious Phoenix",
+      "description": "Creative and unconventional, you're always reinventing yourself and exploring new horizons."
+    }
+  }
+}
